@@ -17,3 +17,13 @@ ul li li:before {
   margin-right: 5px;
   color: #D93F00;
 }
+
+table {
+  margin: 1em 1em 1em 1em;
+  border-top: 1px solid #666;
+  width: 100%;
+  border-bottom: 1px solid #666;
+}
+table thead th { border-bottom: 1px solid #ddd; }
+th, td { padding: 5px; }
+tr:nth-child(even) { background: #eee }
